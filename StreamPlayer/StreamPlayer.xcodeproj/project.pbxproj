@@ -13,6 +13,7 @@
 		A30FB76F24095552008F7370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30FB76D24095552008F7370 /* Main.storyboard */; };
 		A30FB77124095554008F7370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30FB77024095554008F7370 /* Assets.xcassets */; };
 		A30FB77424095554008F7370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A30FB77224095554008F7370 /* LaunchScreen.storyboard */; };
+		A30FB7822409604F008F7370 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A30FB7812409604E008F7370 /* 1.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A30FB77024095554008F7370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A30FB77324095554008F7370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A30FB77524095554008F7370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30FB7812409604E008F7370 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 1.mp4; path = resource/1.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A30FB76624095552008F7370 /* StreamPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A30FB7802409603D008F7370 /* resource */,
 				A30FB76724095552008F7370 /* AppDelegate.swift */,
 				A30FB76924095552008F7370 /* SceneDelegate.swift */,
 				A30FB76B24095552008F7370 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				A30FB77524095554008F7370 /* Info.plist */,
 			);
 			path = StreamPlayer;
+			sourceTree = "<group>";
+		};
+		A30FB7802409603D008F7370 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A30FB7812409604E008F7370 /* 1.mp4 */,
+			);
+			name = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A30FB77424095554008F7370 /* LaunchScreen.storyboard in Resources */,
+				A30FB7822409604F008F7370 /* 1.mp4 in Resources */,
 				A30FB77124095554008F7370 /* Assets.xcassets in Resources */,
 				A30FB76F24095552008F7370 /* Main.storyboard in Resources */,
 			);
@@ -285,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F3WN738VD;
 				INFOPLIST_FILE = StreamPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,6 +316,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7F3WN738VD;
 				INFOPLIST_FILE = StreamPlayer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
